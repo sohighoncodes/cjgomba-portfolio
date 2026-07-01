@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cjgomba-portfolio.pages.dev/sitemap.xml
