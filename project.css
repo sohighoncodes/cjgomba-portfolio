@@ -977,12 +977,16 @@
   gap: 10px;
 }
 
+.study-header-actions .theme-toggle {
+  flex: 0 0 128px;
+}
+
 .back-link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   color: var(--muted);
-  font: 10px/1 var(--font-mono);
+  font: 12px/1 var(--font-mono);
   text-transform: uppercase;
 }
 

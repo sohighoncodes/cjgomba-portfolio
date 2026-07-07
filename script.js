@@ -19,10 +19,13 @@ function applyTheme(theme) {
     ?.setAttribute("content", theme === "dark" ? "#111015" : "#f8f7fb");
 
   themeButtons.forEach((button) => {
+    const isDark = theme === "dark";
     button.setAttribute(
       "aria-label",
-      theme === "dark" ? "Switch to light theme" : "Switch to dark theme",
+      isDark ? "Switch to light theme" : "Switch to dark theme",
     );
+    button.setAttribute("aria-pressed", String(isDark));
+    button.dataset.themeState = theme;
   });
 }
 
