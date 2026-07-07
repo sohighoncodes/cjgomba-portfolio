@@ -163,25 +163,25 @@
         <header class="section-heading reveal">
           <div>
             <p class="section-index">01 — Selected work</p>
-            <h2>Systems built around real business outcomes.</h2>
+            <h2>Automation systems, mapped in plain English.</h2>
           </div>
           <p>
-            A closer look at how scattered tools and manual steps became clear,
-            dependable workflows.
+            Three builds that show how I connect tools, reduce admin work, and make
+            operations easier to run.
           </p>
         </header>
 
         <article class="case-study reveal">
           <div class="case-copy">
             <div class="case-number">01</div>
-            <p class="case-kicker">Applicant onboarding · HubSpot</p>
-            <h3>A complete applicant journey, kept moving automatically.</h3>
+            <p class="case-kicker">HubSpot onboarding engine</p>
+            <h3>Applicants move from form to onboarding without manual chasing.</h3>
             <p>
-              Qualification, agreements, training, reminders, and progress tracking—connected in one HubSpot system.
+              Jotform, HubSpot, reminders, documents, and training progress working as one connected flow.
             </p>
             <div class="value-snapshot">
-              <span><strong>Value</strong>Less manual chasing</span>
-              <span><strong>Outcome</strong>Clear applicant progress</span>
+              <span><strong>Less chasing</strong>Follow-ups trigger automatically</span>
+              <span><strong>Clear status</strong>Every applicant has a next step</span>
             </div>
             <div class="case-footer">
               <div class="tool-line">
@@ -193,33 +193,34 @@
               <a class="project-card-link" href="projects/hubspot-onboarding.html#top">View case study <span>↗</span></a>
             </div>
           </div>
-          <div class="case-visual visual-onboarding" aria-label="Applicant onboarding flow illustration">
+          <div class="case-visual visual-onboarding system-map" aria-label="Applicant onboarding flow illustration">
             <div class="visual-topline">
-              <span>ONBOARDING FLOW</span>
+              <span>FLOW MAP</span>
               <span class="live-pill"><i></i> LIVE</span>
             </div>
-            <div class="flow-stage is-active">
-              <span>01</span>
-              <div><strong>Application received</strong><small>Capture + qualify</small></div>
-              <i></i>
+            <div class="map-grid">
+              <div class="map-node source-node">
+                <img src="assets/logos/tools/jotform-wordmark.png" alt="" />
+                <strong>Application</strong>
+                <small>Form submitted</small>
+              </div>
+              <div class="map-connector"><span></span></div>
+              <div class="map-node hub-node">
+                <img src="assets/logos/tools/hubspot-icon.png" alt="" />
+                <strong>HubSpot logic</strong>
+                <small>Qualify + route</small>
+              </div>
+              <div class="map-connector"><span></span></div>
+              <div class="map-node">
+                <span class="map-icon">→</span>
+                <strong>Correct path</strong>
+                <small>Eligible, incomplete, or closed</small>
+              </div>
             </div>
-            <div class="flow-line"></div>
-            <div class="flow-stage">
-              <span>02</span>
-              <div><strong>Agreement &amp; welcome</strong><small>Send + follow up</small></div>
-              <i></i>
-            </div>
-            <div class="flow-line"></div>
-            <div class="flow-stage">
-              <span>03</span>
-              <div><strong>Training progress</strong><small>Track + remind</small></div>
-              <i></i>
-            </div>
-            <div class="flow-line"></div>
-            <div class="flow-stage">
-              <span>04</span>
-              <div><strong>Onboarded</strong><small>Ready to begin</small></div>
-              <i></i>
+            <div class="branch-map">
+              <span>Eligible <b>continue</b></span>
+              <span>Incomplete <b>remind</b></span>
+              <span>Not eligible <b>redirect</b></span>
             </div>
           </div>
         </article>
@@ -227,10 +228,10 @@
         <article class="case-study case-study-reverse reveal">
           <div class="case-copy">
             <div class="case-number">02</div>
-            <p class="case-kicker">Lead-to-client automation · Sales operations</p>
-            <h3>A connected journey from new lead to signed and paid.</h3>
+            <p class="case-kicker">Lead-to-client revenue flow</p>
+            <h3>New leads become signed, paid clients through one connected system.</h3>
             <p>
-              Leads, deals, contracts, payment links, and follow-up campaigns all work from the same information.
+              Monday.com, contracts, payment links, deal stages, and campaigns stay aligned behind the scenes.
             </p>
             <div class="value-snapshot">
               <span><strong>60.8%</strong>Email open rate</span>
@@ -246,10 +247,10 @@
               <a class="project-card-link" href="projects/lead-to-client.html#top">View case study <span>↗</span></a>
             </div>
           </div>
-          <div class="case-visual visual-revenue" aria-label="Lead to client flow illustration">
+          <div class="case-visual visual-revenue system-map" aria-label="Lead to client flow illustration">
             <div class="visual-topline">
-              <span>LEAD → CLIENT</span>
-              <span>5 STAGES</span>
+              <span>SALES SYSTEM</span>
+              <span>5 CONNECTED STEPS</span>
             </div>
             <div class="revenue-rail">
               <div class="rail-progress"></div>
@@ -261,14 +262,14 @@
             </div>
             <div class="campaign-card">
               <div>
-                <small>FOLLOW-UP CAMPAIGN</small>
-                <strong>Foundation plan</strong>
+                <small>VALUE CREATED</small>
+                <strong>Sales team works from one source of truth</strong>
               </div>
-              <span>Active</span>
+              <span>Automated</span>
             </div>
             <div class="metric-pair">
-              <div><strong>60.8%</strong><span>open rate</span></div>
-              <div><strong>31.1%</strong><span>click rate</span></div>
+              <div><strong>Sign</strong><span>contract follow-up</span></div>
+              <div><strong>Pay</strong><span>payment tracking</span></div>
             </div>
           </div>
         </article>
@@ -276,14 +277,14 @@
         <article class="case-study reveal">
           <div class="case-copy">
             <div class="case-number">03</div>
-            <p class="case-kicker">CRM migration + AI · Penot Double Glazing</p>
-            <h3>A smarter CRM built around how the sales team actually works.</h3>
+            <p class="case-kicker">CRM migration + AI lead capture</p>
+            <h3>A cleaner sales pipeline for web leads, calls, tasks, and follow-ups.</h3>
             <p>
-              Penot moved from HubSpot to GoHighLevel, bringing website inquiries, calls, tasks, and opportunities into one system.
+              Website forms and CallRail calls feed into GoHighLevel, with AI extracting the details sales teams need.
             </p>
             <div class="value-snapshot">
               <span><strong>303</strong>Opportunities managed</span>
-              <span><strong>8</strong>Lead sources centralized</span>
+              <span><strong>One CRM</strong>Lead details centralized</span>
             </div>
             <div class="case-footer">
               <div class="tool-line">
@@ -295,9 +296,9 @@
               <a class="project-card-link" href="projects/penot-crm-migration.html#top">View case study <span>↗</span></a>
             </div>
           </div>
-          <div class="case-visual visual-pipeline" aria-label="Penot sales pipeline illustration">
+          <div class="case-visual visual-pipeline system-map" aria-label="Penot sales pipeline illustration">
             <div class="visual-topline">
-              <span>PENOT SALES PIPELINE</span>
+              <span>CRM OPERATING SYSTEM</span>
               <span>303 OPPORTUNITIES</span>
             </div>
             <div class="pipeline-columns">
@@ -317,7 +318,7 @@
             </div>
             <div class="ai-note">
               <span>AI</span>
-              <p><strong>Call notes structured</strong> Budget, location, colour, timeline + next step</p>
+              <p><strong>Call notes structured</strong> Budget, suburb, colour, address, timeline, and next step.</p>
             </div>
           </div>
         </article>
